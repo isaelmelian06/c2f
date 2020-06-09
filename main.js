@@ -9,7 +9,7 @@ const userInput = getInput(0);
 
 function celToFah(userInput){
   const result = (userInput * 1.8) + 32;
-  return messageToUser = userInput + "C" + " " +"is " + result + " in Fahrenheit";
+  return messageToUser = userInput + " degrees Celsius is " + result + " degrees in Fahrenheit";
   
 }
 
