@@ -4,6 +4,19 @@
 
 
 
+ 
+const userInput = getInput(0);
+
+function celToFah(userInput){
+  const result = (userInput * 1.8) + 32;
+  return messageToUser = userInput + "C" + " " +"is " + result + " in Fahrenheit";
+  
+}
+
+console.log(celToFah(userInput));
+
+
+
 
 
 /*******************************************************************************
